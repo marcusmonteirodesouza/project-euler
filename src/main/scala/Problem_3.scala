@@ -3,7 +3,7 @@ object Problem_3 {
     largestPrimeFactor(600851475143L)
   }
 
-  def largestPrimeFactor(n: Long): Long = {
+  private def largestPrimeFactor(n: Long): Long = {
     if (n < 2) {
       throw new IllegalArgumentException(
         "Integers less than 2 do not have prime factors")
